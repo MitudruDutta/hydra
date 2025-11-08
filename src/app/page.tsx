@@ -1,6 +1,5 @@
 import { getQueryClient, trpc } from "@/trpc/server";
 import { Client } from "./client";
-import { get } from "http";
 import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
 import { Suspense } from "react";
 
